@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+coverage/
+temp/
+dest/
+example/
+docs/
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock

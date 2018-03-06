@@ -1,0 +1,61 @@
+$blue: #2599f2;
+$black: #000000;
+.ddjf {
+    /*wd-header*/
+    .wd-header {
+        background-color: $blue;
+    }
+    /*wd-messagebox*/
+    .wd-messagebox footer span {
+        color: $blue;
+    }
+    .wd-messagebox footer span:first-child {
+        color: $black;
+    }
+    /*button*/
+    .wd-button-primary,
+    .wd-button-primary:active,
+    .wd-button-default:active {
+        background-color: $blue;
+    }
+    .wd-button-primary {
+        border: 1rpx solid $blue;
+       
+    }
+    .wd-button-default {
+        border: 1rpx solid $blue;
+       
+        color: $blue;
+    }
+    /*wd-search*/
+    .wd-search .wd-search-button {
+        background: $blue;
+    }
+    /*wd-radio-custominput*/
+    input:checked+.wd-radio-custominput[data-v-c8d5a9ac] {
+        border: 1rpx solid $blue;
+       
+    }
+    input:checked+.wd-radio-custominput[data-v-c8d5a9ac]:after {
+        background: $blue;
+    }
+    /*wd-checkbox-custominput*/
+    input:checked+.wd-checkbox-custominput[data-v-52671348],
+    input:checked+.wd-actionsheet-checkbox-custominput[data-v-406220d4] {
+        border: 1rpx solid $blue;
+       
+        background-color: $blue;
+    }
+    .wd-actionsheet-list .wd-actionsheet-listitem.checked:after {
+        border-bottom: 2rpx solid $blue;
+       
+        border-right: 2rpx solid $blue;
+       
+    }
+    /*navbar*/
+    .wd-tab-item.navbar-active {
+        color: $blue;
+        border-bottom: 4dpx solid $blue;
+       
+    }
+}

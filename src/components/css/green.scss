@@ -1,0 +1,58 @@
+$green: #1AAE18;
+$black: #000000;
+.ddjf {
+    /*wd-header*/
+    .wd-header {
+        background-color: $green;
+    }
+    /*wd-messagebox*/
+    .wd-messagebox footer span {
+        color: $green;
+    }
+    .wd-messagebox footer span:first-child {
+        color: $black;
+    }
+    /*button*/
+    .wd-button-primary,
+    .wd-button-primary:active,
+    .wd-button-default:active {
+        background-color: $green;
+    }
+    .wd-button-primary {
+        border: 1rpx solid $green;
+       
+    }
+    .wd-button-default {
+        border: 1rpx solid $green;
+       
+        color: $green;
+    }
+    /*wd-search*/
+    .wd-search .wd-search-button {
+        background: $green;
+    }
+    /*wd-radio-custominput*/
+    input:checked+.wd-radio-custominput[data-v-c8d5a9ac] {
+        border: 1rpx solid $green;
+       
+    }
+    input:checked+.wd-radio-custominput[data-v-c8d5a9ac]:after {
+        background: $green;
+    }
+    /*wd-checkbox-custominput*/
+    input:checked+.wd-checkbox-custominput[data-v-52671348],
+    input:checked+.wd-actionsheet-checkbox-custominput[data-v-406220d4] {
+        border: 1rpx solid $green;
+       
+        background-color: $green;
+    }
+    .wd-actionsheet-list .wd-actionsheet-listitem.checked:after {
+        border-bottom: 2rpx solid $green;
+        border-right: 2rpx solid $green;
+    }
+    /*navbar*/
+    .wd-tab-item.navbar-active {
+        color: $green;
+        border-bottom: 4dpx solid $green;
+    }
+}
